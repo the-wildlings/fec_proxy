@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <link rel="stylesheet" href="/style.css"> -->
+  <title>FEC</title>
+</head>
+
+<body>
+  <div id="body"></div>
+  <script src="/lib/react.development.js"></script>
+  <script src="/lib/react-dom.development.js"></script>
+  <script src="http://localhost:3069/bundle.js"></script>
+  <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
+  <script>
+    ReactDOM.render(
+      React.createElement(App),
+      document.getElementById('body')
+    );
+  </script>
+</body>
+
+</html>
